@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('/30DaysOfJS/DrumKit/images/image.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adds space between the rows */
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 5px; /* Adds space between the keys within a row */
+}
+
+.row:first-child {
+  margin-left: 20px; /* Offset for the first row (QWERTY row) */
+}
+
+.row:nth-child(2) {
+  margin-left: 40px; /* Offset for the second row (ASDF row) */
+}
+
+.row:last-child {
+  margin-left: 60px; /* Offset for the third row (ZXCV row) */
+}
+
+.key {
+  border: 0.3rem solid black;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem;
+  transition: all 0.07s ease;
+  width: 4rem; /* Adjusted width to fit the keys better */
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 10px;
+  display: block;
+  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  font-size: 5rem;
+  color: white;
+  margin-bottom: 10px;
+  display: block;
+}
+
+p {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+kbd {
+  display: block;
+  font-size: 2rem;
+}
+
+span.sound {
+  font-size: 1rem;
+  color: yellow;
+  letter-spacing: 0.1rem;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: yellow;
+  box-shadow: 0 0 2rem yellow;
+}
