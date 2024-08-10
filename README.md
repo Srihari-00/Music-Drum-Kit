@@ -1,5 +1,4 @@
 # Music-Drum-Kit
-# Music DrumKit
 # Overview
 The Music DrumKit is an interactive web-based application that allows users to play various drum sounds using their keyboard. Designed to provide a simple yet engaging way to practice rhythm and create beats, this project combines HTML, CSS, and JavaScript to deliver a visually appealing and functional drum kit interface.
 
