@@ -16,7 +16,7 @@ JavaScript: Handles the interaction, playing of sounds, and visual effects when 
   1. Clone the Repository:
         ---->  git clone https://github.com/Srihari-00/Music-Drum-Kit.git
         ---->  cd music-drumkit
-  2. Open index.html in a Web Browser: 
+  2. Open KeyBoardMusic.html in a Web Browser: 
         ---->  Simply open the index.html file in your preferred web browser to start using the drum kit.
 
   3. Play Drum Sounds:
